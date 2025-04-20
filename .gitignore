@@ -1,0 +1,27 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+ENV/
+env/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# Virtual environment
+venv/
+
+# Data directories
+tiles/
+tiles_raw/
+index/
+source/
+
+# Metadata
+*.json
