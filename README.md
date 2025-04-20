@@ -7,7 +7,7 @@
 ## 主な機能
 
 1. サンプル画像の収集と前処理。
-2. 特徴量の抽出と類似タイル検索。
+2. 特徴量の抽出と類似画像検索。
 3. アップロードした画像に基づく画像類似検索結果の提供。
 
 ## 使用方法
@@ -91,11 +91,11 @@ Response: {'results': [{'image_path': 'tiles/tile_092.jpg', 'distance': 0.166527
 ├── main.py               # FastAPIエントリーポイント
 ├── search_engine.py      # 類似検索エンジン
 ├── preprocess_tiles.py   # 画像前処理スクリプト
-├── download_tiles.py     # タイル画像収集スクリプト
+├── download_tiles.py     # サンプル画像収集スクリプト
 ├── save_index.py         # インデックス作成スクリプト
 ├── post_to_search.py     # 画像アップロードスクリプト
-├── tiles/                # 前処理済みタイル画像
-├── tiles_raw/            # 生のタイル画像
+├── tiles/                # 前処理済みサンプル画像
+├── tiles_raw/            # 生のサンプル画像
 ├── index/                # 検索インデックス
 └── requirements.txt      # 必要なライブラリ
 ```
